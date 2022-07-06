@@ -1,0 +1,26 @@
+.post {
+    background-color: $colorprimario;
+    padding: 8px 5px;
+    color: $colorsegundo;
+    border-radius: 10px;
+    h5 {
+        font-size: $textOne;
+    }
+    .foto {
+        width: 100%;
+        border-radius: 10px;
+        &:hover{
+            opacity: 0.80;
+        }
+    }
+    button {
+        border: 0;
+        padding: 5px 10px;
+        border-radius: 50px;
+        background-color: $colorsegundo;
+        &:hover {
+            background-color: $colortercero;
+            color: $colorsegundo;
+        }
+    }
+}

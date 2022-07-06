@@ -1,0 +1,23 @@
+.nav {
+    background-color: $colorprimario;
+
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: end;
+        font-size: 15px;
+
+        li {
+            padding: 10px;
+
+            a {
+                text-decoration: none;
+                color: $colorsegundo;
+                opacity: 0.80;
+                &:hover {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
