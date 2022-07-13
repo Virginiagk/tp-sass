@@ -40,17 +40,24 @@
 .post .foto:hover {
   opacity: 0.8;
 }
-.post button {
+.post .button, .button-colorUno, .button-colorDos, .button-colorTres{
   border: 0;
   padding: 5px 10px;
   border-radius: 50px;
-  background-color: rgb(255, 255, 255);
-}
-.post button:hover {
-  background-color: rgb(63, 63, 63);
-  color: rgb(255, 255, 255);
+  width: 100px;
+  height: auto;
+  color: #fff;
 }
 
+.button-colorUno {
+  background-color: rgb(252, 115, 115);
+}
+.button-colorDos {
+  background-color: rgb(158, 97, 97);
+}
+.button-colorTres {
+  background-color: rgb(223, 71, 71);
+}
 footer {
   background-color: rgb(255, 149, 181);
   padding: 10px;
